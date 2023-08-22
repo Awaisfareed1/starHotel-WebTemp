@@ -1,0 +1,1263 @@
+@font-face {
+    font-family: adelle_Reg;
+    src: url(../Adelle/Adelle_Reg.otf);
+}
+
+@font-face {
+    font-family: adelle_Light;
+    src: url(../Adelle/Adelle_light.otf);
+}
+
+@font-face {
+    font-family: adelle_Bold;
+    src: url(../Adelle/Adelle_Bold.otf);
+}
+
+body {
+    font-family: adelle_Reg;
+    background-color: #0E1D33;
+}
+
+p {
+    margin: 0px;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.translateIcon {
+    margin-right: 50px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.heroImg img {
+    height: 100%;
+    width: 100%;
+}
+
+#select {
+    height: 38.6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.selectText h2 {
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.selectText h3 {
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: 3px;
+    color: #DAB976;
+    margin: 0px;
+}
+
+.selectShape {
+    height: 413px;
+    width: 565px;
+    background-color: #DAB976;
+}
+
+.selectTopText {
+    height: 109px;
+    background-color: white;
+    color: black;
+    padding-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.selectTopText p:nth-child(1) {
+    font-size: 32px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 43px;
+}
+
+.selectTopText p:nth-child(2) {
+    font-size: 32px;
+    color: #000000;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 43px;
+}
+
+.redHr {
+    width: 100%;
+    height: 5px;
+    background-color: #F07D60;
+    margin: 7% 0px;
+}
+
+#logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #FFFFFF;
+    margin: 7% 0px;
+    width: 85%;
+}
+
+.logoOne {
+    display: flex;
+    align-items: baseline;
+}
+
+.logoOne p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+    line-height: 23px;
+}
+
+#dieBestie {
+    margin: 5% 0px;
+    width: 95%;
+}
+
+#dieBestie h1 {
+    letter-spacing: 3px;
+    font-size: 52px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: underline #DAB976;
+}
+
+.dieTopText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.dieText:nth-child(1) {
+    margin: 3% 0px;
+}
+
+.dieText:nth-child(2) {
+    margin-bottom: 5%;
+}
+
+.textLeft {
+    width: 92%;
+    word-spacing: 3px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 36px;
+    font-family: adelle_Light;
+}
+
+.textRight {
+    width: 94%;
+    float: right;
+    word-spacing: 3px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 36px;
+    font-family: adelle_Light;
+}
+
+.textRight .textLight {
+    width: 60%;
+    font-size: 32px;
+    font-style: italic;
+    line-height: 52px;
+}
+
+#newsLetter {
+    width: 90%;
+    margin: 8% auto;
+    text-align: center;
+}
+
+.newLetterText h1 {
+    color: #FFFFFF;
+    font-size: 42px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-decoration: underline #DAB976;
+}
+
+.newsLetterBox {
+    margin: 4% auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsLetterinput {
+    width: 509px;
+    height: 46px;
+    padding: 1% 2%;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    border-right: 0px;
+}
+
+.newsLetterBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 192px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.newsLetterBtn img {
+    width: 25px;
+    height: 19px;
+    margin-right: 10px;
+}
+
+footer {
+    height: 100%;
+    border-top: 5px solid #DAB976;
+    background-color: #FFFFFF;
+}
+
+#footerInner {
+    width: 60%;
+    margin: 0% auto;
+    padding: 2% 0px;
+}
+
+.footerSecondTop h1 {
+    font-family: adelle_Bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.footerSecondTop h2 {
+    font-family: adelle_Bold;
+    line-height: 21px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.footerSecondText {
+    margin: 5% 0px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.footerSecondText img {
+    margin-right: 14px;
+}
+
+.footerAcnchor {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.footerLast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLastTop {
+    margin-top: 10%;
+}
+
+.footerLastTop p {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 20%;
+}
+
+.footerLastBottom p {
+    margin-bottom: 10%;
+
+}
+
+.footerLastAnchor {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.fEnd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fStart {
+    justify-content: space-between;
+}
+
+.hm2 {
+    display: none;
+}
+
+.hm1 {
+    display: block;
+}
+
+.hambMenu {
+    margin-right: 15%;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.selectText {
+    position: relative;
+}
+
+.selectLower {
+    padding: 3% 4%;
+}
+
+.fromLabel {
+    position: absolute;
+    top: -9px;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    background: #DAB976;
+    left: 11px;
+    padding: 0px 8px;
+}
+
+.selcts {
+    margin-bottom: 4%;
+    margin-top: 1%;
+}
+
+.nachte {
+    width: 100%;
+    padding: 17px 10px 9px 20px;
+    border: 1px solid white;
+    background: transparent;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    appearance: none;
+    -moz-appearance: none;
+}
+
+select.nachte {
+    background-image:
+        linear-gradient(45deg, transparent 50%, rgb(253, 253, 255) 50%),
+        linear-gradient(135deg, rgb(255, 255, 255) 50%, transparent 50%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        100% 0;
+    background-size:
+        5px 5px,
+        5px 5px,
+        2.5em 2.5em;
+    background-repeat: no-repeat;
+}
+
+select.nachte:focus {
+    /* border: none; */
+    outline: none;
+}
+
+select.nachte:after {
+    content: '\2304';
+    font-size: 30px;
+    line-height: 23px;
+    padding-right: 2px;
+}
+
+.selectButtom {
+    font-size: 16px;
+    width: 185px;
+    height: 50px;
+    border: none;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.selectButtom img {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+.selectButtom span {
+    margin-top: 5px;
+}
+
+.lowerFooter {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.lowerFooter p {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 2px;
+}
+
+.hotelPremium h1 {
+    font-size: 62px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.hotelPremium h2 {
+    font-size: 62px;
+    line-height: 70px;
+    color: #DAB976;
+}
+
+#info {
+    margin: 5% 0px;
+    display: flex;
+}
+
+.telphone {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.telphone a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.telphoneImg {
+    width: 25px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+.emailImg {
+    width: 25px;
+    height: 19px;
+    margin-right: 10px;
+}
+
+#zumhotel {
+    width: 1550px;
+    margin: 5% 0px 10% 0px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+}
+
+.zumbg {
+    background-image: url(../images/Image\ 27.png);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 620px;
+}
+
+.zumbg2 {
+    background-image: url(../images/Scroll\ Group\ 10.png);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 620px;
+}
+
+.zumbg3 {
+    background-image: url(../images/Image\ 40.png);
+    background-position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 620px;
+}
+
+.bgRed {
+    width: 50px;
+    height: 800px;
+    background-color: #F07D60;
+}
+
+.zumhotelAll {
+    display: flex;
+}
+
+.zumhotelPage {
+    height: 800px;
+    width: 680px;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 14%;
+}
+
+.zumhotelPage p {
+    font-size: 20px;
+    font-family: adelle_Light;
+    line-height: 36px;
+}
+
+.zumhotelPage p span {
+    font-size: 20px;
+    font-family: adelle_Bold;
+    line-height: 36px;
+}
+
+.bottomzumbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+.zumBtn {
+    width: 231px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #DAB976;
+}
+
+.zumButton {
+    width: 211px;
+    height: 50px;
+    border: none;
+    background-color: #DAB976;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width : 1920px) {
+    .headerBtn {
+        width: 230px;
+        height: 70px;
+        border: 2px solid #DAB976;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerBtn img {
+        height: 18px;
+        width: 18px;
+        margin-right: 5px;
+    }
+
+    .headerButton {
+        width: 200px;
+        height: 50px;
+        background-color: #DAB976;
+        color: #000000;
+        border: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width : 768px) {
+    .headerBtn {
+        display: none;
+    }
+
+    #zumhotel {
+        width: 100%;
+        margin: 10% 0px 5% 0px;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .zumbg {
+        background-image: url(../images/Image\ 27.png);
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .zumbg2 {
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .zumbg3 {
+        background-position: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .zumhotelPage p {
+        font-size: 14px;
+        font-family: adelle_Light;
+        line-height: 24px;
+    }
+
+    .zumhotelPage p span {
+        font-size: 14px;
+        font-family: adelle_Bold;
+        line-height: 24px;
+    }
+
+    .zumhotelPage {
+        height: 400px;
+        width: 330px;
+        background-color: #FFFFFF;
+        color: #000000;
+        padding: 3%;
+    }
+
+    .bgRed {
+        width: 25px;
+        height: 400px;
+        background-color: #F07D60;
+    }
+
+    .hotelPremium h1 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .hotelPremium h2 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .bottomzumbtn {
+        display: none;
+    }
+
+    .zumhotelAll {
+        display: flex;
+        position: absolute;
+        right: 10px;
+        top: -8%;
+    }
+
+    #select {
+        height: 37vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        position: relative;
+        margin-bottom: 5%;
+        flex-direction: column-reverse;
+        height: 100% !important;
+    }
+
+    .selectShape {
+        height: 413px;
+        width: 100%;
+        background-color: #DAB976;
+        margin-top: -16%;
+        margin-bottom: 5%;
+    }
+
+    .selectText h2 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    .selectText h3 {
+        font-size: 48px;
+        line-height: 52px;
+    }
+
+    #logos {
+        width: 100%;
+    }
+
+    .fEnd {
+        display: block;
+    }
+
+    .fStart {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerLast {
+        display: block;
+    }
+
+    .footerLastBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footerLastTop p {
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 4%;
+    }
+
+    #footerInner {
+        width: 80%;
+        margin: 0% auto;
+        padding: 4% 0px 0% 0px;
+    }
+
+    .footerLast {
+        display: block;
+        border-top: 1px solid black;
+    }
+
+    .footerLastTop {
+        margin-top: 7%;
+    }
+
+    .footerLogo {
+        height: 184px;
+        width: 154px;
+    }
+
+    .footerAcnchor {
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .footerSecondText {
+        margin: 4% 0px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .fImg1 {
+        height: 20px;
+        width: 18px;
+    }
+
+    .fImg2 {
+        height: 20px;
+        width: 18px;
+    }
+
+    .fImg3 {
+        height: 27px;
+        width: 18px;
+    }
+
+    .footerLastAnchor {
+        text-decoration: none;
+        color: #000000;
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+
+    .translateIcon {
+        display: none;
+    }
+
+    .hm1 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .selectShape {
+        height: 397px;
+        width: 397px;
+        background-color: #DAB976;
+        margin-top: -16%;
+        margin-bottom: 5%;
+    }
+
+    #select {
+        height: 37vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        position: relative;
+        margin-bottom: 5%;
+        flex-direction: column-reverse;
+        height: 100% !important;
+    }
+
+    .selectText {
+        text-align: start;
+        margin-left: 0;
+        position: relative;
+        left: -41%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .redHr {
+        width: 100%;
+        height: 5px;
+        background-color: #F07D60;
+        margin: 5% 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+        width: 77px;
+        height: 70px;
+    }
+
+    .gutText {
+        margin-left: 3%;
+    }
+
+    .styleo {
+        margin-bottom: 5%;
+    }
+
+    #dieBestie h1 {
+        letter-spacing: 3px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #FFFFFF;
+        line-height: 40px;
+        text-decoration: underline #DAB976;
+    }
+
+    .textLeft {
+        width: 100%;
+        word-spacing: 3px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 32px;
+        font-family: adelle_Light;
+        margin: 2% 0px;
+    }
+
+    .textRight {
+        width: 100%;
+        float: right;
+        word-spacing: 3px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 32px;
+        font-family: adelle_Light;
+        margin: 2% 0px;
+    }
+
+    .dieText:nth-child(1) {
+        margin: 0% 0px;
+    }
+
+    .newLetterText h1 {
+        color: #FFFFFF;
+        font-size: 28px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        text-decoration: underline #DAB976;
+    }
+
+    .selcts {
+        margin-bottom: 4%;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .selcts {
+        margin-bottom: 7.5%;
+        margin-top: 5%;
+    }
+
+    #footerInner {
+        width: 100%;
+        margin: 0% auto;
+        padding: 4% 4% 0% 4%;
+    }
+
+    .footerLogo {
+        height: 81px;
+        width: 97px;
+        margin: 5% auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerAcnchor {
+        text-decoration: none;
+        color: #000000;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .fImg2 {
+        height: 14px;
+        width: 18px;
+        margin-top: 4px;
+    }
+
+    .footerLastBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+
+    #newsLetter {
+        width: 95%;
+        margin: 8% auto;
+        text-align: center;
+    }
+
+    .newLetterText h1 {
+        color: #FFFFFF;
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 28px;
+        text-decoration: underline #DAB976;
+    }
+
+    .newsLetterBtn p {
+        display: none;
+    }
+
+    .newsLetterBtn {
+        width: 62px;
+        height: 50px;
+    }
+
+    .newsLetterBtn img {
+        width: 25px;
+        height: 19px;
+        margin-right: 0px;
+    }
+
+    .newsLetterinput {
+        width: 240px;
+        height: 46px;
+        padding: 1% 2%;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 24px;
+        border-right: 0px;
+    }
+
+
+    #dieBestie h1 {
+        color: #FFFFFF;
+        font-size: 18px;
+        letter-spacing: 3px;
+        line-height: 28px;
+        text-align: center;
+        text-decoration: underline #DAB976;
+    }
+
+    .translateIcon {
+        display: none;
+    }
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+    .navbar-brand img {
+        height: 43px;
+        width: 52px;
+    }
+
+    .hm2 {
+        display: block;
+    }
+
+    .hm1 {
+        display: none;
+    }
+
+    .selectText h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .selectText h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .textLeft {
+        width: 100%;
+        word-spacing: 3px;
+        color: #FFFFFF;
+        font-size: 13px;
+        line-height: 21px;
+        font-family: adelle_Light;
+        margin: 3% 0px;
+    }
+
+    .textRight {
+        width: 100%;
+        float: right;
+        word-spacing: 3px;
+        color: #FFFFFF;
+        font-size: 13px;
+        line-height: 21px;
+        font-family: adelle_Light;
+        margin: 3% 0px;
+    }
+
+    .textRight .textLight {
+        width: 60%;
+        font-size: 20px;
+        font-style: italic;
+        line-height: 25px;
+        margin: 5% auto;
+    }
+
+    .heroImg img {
+        height: 260px;
+        width: 100%;
+    }
+
+    .selectShape {
+        height: 413px;
+        width: 100%;
+        background-color: #DAB976;
+        margin-top: -32%;
+        margin-bottom: 5%;
+    }
+
+    .selectTopText p:nth-child(1) {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 400;
+        margin: 0px;
+        line-height: 25px;
+    }
+
+    .selectTopText p:nth-child(2) {
+        font-size: 18px;
+        color: #000000;
+        font-weight: 600;
+        margin: 0px;
+        line-height: 25px;
+    }
+
+    .selectTopText {
+        height: 70px;
+    }
+
+    .guImg1 {
+        width: 17px;
+        height: 25px;
+        margin-right: 8px;
+    }
+
+    .guImg2 {
+        width: 40px;
+        height: 38px;
+        margin-right: 8px;
+    }
+
+    .guImg3 {
+        width: 26px;
+        height: 24px;
+        margin-right: 3px;
+    }
+
+    .guImg4 {
+        width: 35px;
+        height: 29px;
+        margin-right: 8px;
+    }
+
+    .gutText {
+        font-family: adelle_Bold;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .hm2 {
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .hambMenu {
+        margin-right: 10%;
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    #newsLetter {
+        width: 95%;
+        margin: 4% auto 15% auto;
+        text-align: center;
+    }
+
+    #select {
+        height: 37vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        position: relative;
+        margin-bottom: 5%;
+        flex-direction: column-reverse;
+        height: 100% !important;
+    }
+
+    .selectText {
+        text-align: start;
+        margin-left: 0;
+        position: relative;
+        left: 0%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .guImg3 {
+        width: 24px;
+        height: 24px;
+        margin-right: 1px;
+    }
+
+    .selectTopText {
+        height: 80px;
+    }
+
+    .lowerFooter p {
+        font-size: 13px;
+        line-height: 17px;
+        letter-spacing: 0px;
+    }
+
+    #zumhotel {
+        width: 100%;
+        margin: 5% 0px 5% 0px;
+        display: block;
+        justify-content: center;
+        align-items: baseline;
+        position: relative;
+    }
+
+    .zumhotelAll {
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    .bgRed {
+        width: 35px;
+        height: 400px;
+        background-color: #F07D60;
+    }
+
+    .zumhotelPage {
+        height: 400px;
+        width: 100%;
+        background-color: #FFFFFF;
+        color: #000000;
+        padding: 7% 3%;
+    }
+
+    .hotelPremium h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .hotelPremium h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    #info {
+        margin: 5% 0px;
+        display: block;
+    }
+
+    .telphone {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 3% 0px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    #zumhotel {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 1440px) {
+    #zumhotel {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 1920px) {
+    #zumhotel {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 2400px) {
+    #zumhotel {
+        width: 100%;
+    }
+
+    #select {
+        height: 26vh;
+    }
+}
